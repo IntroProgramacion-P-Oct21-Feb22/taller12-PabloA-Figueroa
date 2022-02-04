@@ -22,7 +22,12 @@ public class Ejemplo00 {
             return arreglo[0];
         } else {
             return arreglo[tamanio - 1] + misterio(arreglo, tamanio - 1);
-        }
+        } 
+        /*El programa envia el arreglo datos y el tamaño del arreglo a la funcion misterio
+        Donde si el tamaño del arreglo datos es igual a 1, devolveria arreglo datos en la posicion 0
+        y caso contrario devolveria el tamaño del arreglo -1 + la funcion misterio que se vuelve a llamar
+        enviando el arreglo datos y el tamaño del arreglo -1, generando asi un proceso recursivo, 
+        finalizaando con la suma de todos los valores del arreglo*/
     }
 
 }
